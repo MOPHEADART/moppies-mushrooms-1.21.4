@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "moppies-mushrooms",
+	"version": "${version}",
+	"name": "Moppie's Mushrooms",
+	"description": "Dynamic mushrooms for brewing and more!",
+	"authors": [
+		"MOPHEAD"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/moppies-mushrooms/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mophead.moppiesmushrooms.MoppiesMushrooms"
+		],
+		"client": [
+			"net.mophead.moppiesmushrooms.MoppiesMushroomsClient"
+		],
+		"fabric-datagen": [
+			"net.mophead.moppiesmushrooms.MoppiesMushroomsDataGenerator"
+		]
+	},
+	"mixins": [
+		"moppies-mushrooms.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
