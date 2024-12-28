@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "moppies-mushrooms:test_block"
+      "model": "moppies-mushrooms:block/test_block"
     }
   }
 }
