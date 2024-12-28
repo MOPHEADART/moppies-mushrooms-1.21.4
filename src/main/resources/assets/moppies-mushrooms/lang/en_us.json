@@ -1,5 +1,7 @@
 {
   "item.moppies-mushrooms.test": "Test",
 
-  "block.moppies-mushrooms.test_block": "Test Block"
+  "block.moppies-mushrooms.test_block": "Test Block",
+
+  "itemgroup.moppies-mushrooms.moppies_mushrooms": "Moppie's Mushrooms"
 }

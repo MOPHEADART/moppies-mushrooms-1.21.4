@@ -3,6 +3,7 @@ package net.mophead.moppiesmushrooms;
 import net.fabricmc.api.ModInitializer;
 
 import net.mophead.moppiesmushrooms.block.ModBlocks;
+import net.mophead.moppiesmushrooms.item.ModItemGroups;
 import net.mophead.moppiesmushrooms.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,6 +18,7 @@ public class MoppiesMushrooms implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
