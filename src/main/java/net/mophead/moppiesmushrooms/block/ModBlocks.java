@@ -18,7 +18,9 @@ public class ModBlocks {
     public static final Block Test_Block = registerBlock("test_block",
             new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoppiesMushrooms.MOD_ID, "test_block")))
                     .strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
-
+    public static final Block Enoki_Mushroom = registerBlock("enoki_mushroom",
+            new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MoppiesMushrooms.MOD_ID, "enoki_mushroom")))
+                    .strength(0).noCollision().nonOpaque().sounds(BlockSoundGroup.FUNGUS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

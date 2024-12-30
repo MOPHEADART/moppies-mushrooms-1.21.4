@@ -20,6 +20,7 @@ public class ModItemGroups {
 
 
                         entries.add(ModBlocks.Test_Block);
+                        entries.add(ModBlocks.Enoki_Mushroom);
 
                     }).build());
 
