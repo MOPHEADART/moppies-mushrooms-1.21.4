@@ -1,6 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "moppies-mushrooms:block/enoki_mushroom"
-  }
-}

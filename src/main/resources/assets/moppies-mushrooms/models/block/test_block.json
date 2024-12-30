@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "moppies-mushrooms:block/test_block"
-  }
-}
