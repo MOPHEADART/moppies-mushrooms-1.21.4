@@ -27,6 +27,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.Test_Block);
         addDrop(ModBlocks.Enoki_Mushroom);
+        addDrop(ModBlocks.Lions_Mane);
     }
 
     //public LootTable.Builder multipleDrops(Block drop, Item item, float minDrops, float maxDrops) {

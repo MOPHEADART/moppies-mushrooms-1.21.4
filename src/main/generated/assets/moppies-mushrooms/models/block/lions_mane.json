@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "moppies-mushrooms:block/lions_mane"
+  }
+}

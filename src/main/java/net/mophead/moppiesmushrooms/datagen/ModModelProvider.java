@@ -17,6 +17,8 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Test_Block);
         blockStateModelGenerator.registerTintableCross(ModBlocks.Enoki_Mushroom, BlockStateModelGenerator.CrossType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.Lions_Mane, BlockStateModelGenerator.CrossType.NOT_TINTED);
+
 
     }
 

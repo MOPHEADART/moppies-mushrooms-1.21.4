@@ -21,6 +21,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.Test_Block);
                         entries.add(ModBlocks.Enoki_Mushroom);
+                        entries.add(ModBlocks.Lions_Mane);
 
                     }).build());
 

@@ -9,5 +9,6 @@ public class MoppiesMushroomsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.Enoki_Mushroom, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.Lions_Mane, RenderLayer.getCutout());
     }
 }

@@ -21,7 +21,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.Test_Block);
 
-        getOrCreateTagBuilder(BlockTags.FLOWERS)
-                .add(ModBlocks.Enoki_Mushroom);
+        getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
+                .add(ModBlocks.Enoki_Mushroom)
+                .add(ModBlocks.Lions_Mane);
     }
 }
